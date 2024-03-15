@@ -29,7 +29,7 @@ Fixing on Debian is supported when using the Spotify DEB package
 ./fix-spotify-debian.sh
 ```
 
-### Exclude from auto updating
+## Exclude from auto updating
 
 > [!IMPORTANT]  
 > You might have to exclude Spotify from auto updating when using this
