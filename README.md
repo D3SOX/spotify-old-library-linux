@@ -39,7 +39,7 @@ Fixing on Debian is supported when using the Spotify DEB package
 On Arch Linux you have to modify the application menu entry and always start it with `--skip-update`
 
 ```sh
-sed -i sed -i "s/^Exec=.*/Exec=spotify-launcher --skip-update %U/" /usr/share/applications/spotify-launcher.desktop
+sed -i "s/^Exec=.*/Exec=spotify-launcher --skip-update %U/" /usr/share/applications/spotify-launcher.desktop
 ```
 
 ### Debian
