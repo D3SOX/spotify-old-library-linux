@@ -1,6 +1,6 @@
 # Spotify Old Library Linux
 
-Restore the old Spotify library on Linux.
+Restore the old Spotify version which still has the old library on Linux.
 
 
 ## Installation
@@ -63,3 +63,11 @@ On Debian you have to exclude the package from being updated
 ```sh
 sudo apt-mark hold spotify-client
 ```
+
+## Actually disable the new library
+
+You might have to still disable the new library inside the experimental features menu. You can get that by installing [Spicetify](https://spicetify.app/). Then follow the steps
+- Click on your name in the top right
+- Click on "Experimental features"
+- Search for "library x"
+- Disable all checkboxes
