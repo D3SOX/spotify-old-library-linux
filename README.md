@@ -42,6 +42,20 @@ On Arch Linux you have to modify the application menu entry and always start it 
 sed -i "s/^Exec=.*/Exec=spotify-launcher --skip-update %U/" /usr/share/applications/spotify-launcher.desktop
 ```
 
+You should probably also add a hook that preserves this change. To do so create a file at `/etc/pacman.d/hooks/spotify-launcher.hook` with the following contents
+```ini
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = spotify-launcher
+[Action]
+Description = Disabling spotify-launcher updates...
+Depends = sed
+When = PostTransaction
+Exec = /usr/bin/sed -i -e 's/^Exec=.*/Exec=spotify-launcher --skip-update %U/' /usr/share/applications/spotify-launcher.desktop
+```
+
 ### Debian
 
 On Debian you have to exclude the package from being updated
