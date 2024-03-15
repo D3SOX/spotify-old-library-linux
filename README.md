@@ -15,7 +15,7 @@ cd spotify-old-library-linux
 
 ### Arch Linux
 
-Fixing on Arch Linux is supported when using [`spotify-launcher`](https://archlinux.org/packages/spotify-launcher/)
+Fixing on Arch Linux (and distros based on it) is supported when using [`spotify-launcher`](https://archlinux.org/packages/spotify-launcher/)
 
 ```sh
 ./fix-spotify-archlinux.sh
@@ -23,7 +23,7 @@ Fixing on Arch Linux is supported when using [`spotify-launcher`](https://archli
 
 ### Debian
 
-Fixing on Debian is supported when using the Spotify DEB package 
+Fixing on Debian (and distros based on it) is supported when using the Spotify DEB package 
 
 ```sh
 ./fix-spotify-debian.sh
