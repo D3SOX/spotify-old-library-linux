@@ -66,7 +66,7 @@ sudo apt-mark hold spotify-client
 
 ## Actually disable the new library
 
-You might have to still disable the new library inside the experimental features menu. You can get that by installing [Spicetify](https://spicetify.app/). Then follow the steps
+You might have to still disable the new library inside the experimental features menu. You can get that by installing [Spicetify](https://spicetify.app/). The last confirmed working version is [v2.34.1](https://github.com/spicetify/spicetify-cli/releases/tag/v2.34.1). Then follow the steps
 - Click on your name in the top right
 - Click on "Experimental features"
 - Search for `library x`
