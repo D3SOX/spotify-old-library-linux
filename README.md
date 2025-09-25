@@ -1,3 +1,6 @@
+> [!WARNING]  
+> No longer maintained. I have since switched to a current Spotify version and can therefore no longer guarantee that this still works.
+
 # Spotify Old Library Linux
 
 Restore the old Spotify version which still has the old library on Linux.
